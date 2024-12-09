@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "bootstrap";
+@import "bootstrap-icons";
+
+$cor-principal: #066839;
+$cor-secundaria: #0A5C36;
+
+$cor-background-1: #1D2E28;
+$cor-background-2: #212224;
+
+.app-texto-principal {
+    color: $cor-principal;
+}
+
+.app-background-principal {
+    background-color: $cor-principal;
+}
+
+.app-hover-secundario {
+    &:hover {
+        background-color: $cor-secundaria;
+    }
+}
+
+.app-background-secundario {
+    background-color: $cor-secundaria;
+}
+
+.app-background-escuro {
+    background-color: $cor-background-1;
+}
+
+.app-background-escuro-2 {
+    background-color: $cor-background-2;
+}  
+
+section {
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}  
