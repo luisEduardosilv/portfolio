@@ -13,7 +13,7 @@ export class ExperienciasComponent {
   experiencias: ItemExperiencias[] = [
     {
       duracaoExperiencia: "Mar/2024 - Atualmente",
-      imgUrl: "/logo-academia.png",
+      imgUrl: "/assets/logo-academia.png",
       alt: "Logo da Academia do Programador",
       titulo: "Desenvolvedor Trainee",
       descricao: `
@@ -32,7 +32,7 @@ export class ExperienciasComponent {
     },
     {
       duracaoExperiencia: "Fev/2024 - Atualmente",
-      imgUrl: "/logo-IFSC.png",
+      imgUrl: "assets/logo-IFSC.png",
       alt: "Logo do IFSC",
       titulo: "Bacharelado",
       descricao: `
@@ -46,7 +46,7 @@ export class ExperienciasComponent {
     },
     {
       duracaoExperiencia: "Fev/2022 - Dez/2023",
-      imgUrl: "/logo-IFSC.png",
+      imgUrl: "assets/logo-IFSC.png",
       alt: "Logo do IFSC",
       titulo: "Curso técnico em Informática para a Internet",
       descricao: `
@@ -64,7 +64,7 @@ export class ExperienciasComponent {
     },
     {
       duracaoExperiencia: "Fev/2021 - Dez/2023",
-      imgUrl: "/logo-CEDUP.webp",
+      imgUrl: "assets/logo-CEDUP.webp",
       alt: "Logo do CEDUP",
       titulo: "Curso técnico em Informática",
       descricao: `
